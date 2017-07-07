@@ -1,0 +1,118 @@
+/*WIDTH 601*/
+@media all and (min-width: 601px) {
+	/*TYPOGRAPHY*/
+	h1 {
+		font-size: 1.1em;
+		margin-bottom: 10px;
+	}
+
+	.headline h2 {
+		margin: 50px 0;
+		font-size: 1.4em;
+	}
+
+	.logo a {
+		font-size: 1.5em;
+	}
+
+
+	/*NAVBAR*/
+	.navcontent {
+		margin: 12px 40px;
+	}
+
+	.secondnav {
+		display: inline;
+	}
+
+	
+	/*CONTENT*/
+	.latest-topthree {
+		margin-top: 94px;
+	}
+
+	.latest-major, .latest-half{
+		position: relative;
+	}
+
+	.latest-major-description, .latest-minor-description {
+		position: absolute;
+		bottom: 40px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		color: white;
+	}
+
+	.latest-major {
+		background-image: url(../images/latest-major.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 355px;
+	}
+
+	.latest-major img {
+		display: none;
+	}
+
+	.latest-minor {
+		grid-template-columns: 2fr 2fr;
+	}
+
+	.latest-half {
+		height: 255px;
+	}
+
+	.latest-half img {
+		display: none;
+	}
+
+	.justdance_preview {
+		background-image: url(../images/latest-minor-1.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+
+	.glow_preview {
+		background-image: url(../images/latest-minor-2.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+
+
+	/*MEMBERS PLAYLIST*/
+	.membersplaylist {
+		margin-top: 40px;
+	}
+	.membersplaylist-preview{
+		position: relative;
+	}
+
+	.membersplaylist-desc {
+		position: absolute;
+		bottom: 40px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		color: white;
+	}
+
+	.membersplaylist-preview {
+		background-image: url(../images/membersplaylist.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 355px;
+	}
+
+	.membersplaylist-preview img {
+		display: none;
+	}
+
+
+	/*DEBUT*/
+	.debut-preview{
+		grid-template-columns: repeat(3, 3fr);
+		grid-gap: 20px;
+	}
+
+}
