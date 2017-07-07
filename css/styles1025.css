@@ -26,6 +26,11 @@
 		font-size: 0.9em;
 	}
 
+	.general-desc h2 {
+		font-size: 1em;
+		margin: 20px 0;
+	}
+
 	/*NAVBAR*/
 	.secondnav {
 		display: inline;
@@ -92,5 +97,12 @@
 	/*DEBUT*/
 	.debut-preview{
 		grid-gap: 30px;
+	}
+
+
+	/*JUNKIE*/
+	.andrenalinejunkies-preview{
+		grid-template-columns: repeat(4, 4fr);
+		grid-gap: 20px;
 	}
 }

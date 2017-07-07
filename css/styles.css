@@ -213,6 +213,25 @@ section {
 	width: 100%;
 }
 
-.debut-desc {
+.general-desc {
+	padding-bottom: 40px;
+}
+
+/*JUNKIE*/
+.andrenalinejunkies-preview {
+	margin: 0 20px;
+	display: grid;
+	grid-template-columns:1fr;
+}
+
+.andrenalinejunkies-box img {
+	width: 100%;
+}
+
+.andrenalinejunkies-desc {
 	padding: 20px 0;
 }
+
+
+
+

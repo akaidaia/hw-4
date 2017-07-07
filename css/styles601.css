@@ -115,4 +115,11 @@
 		grid-gap: 20px;
 	}
 
+
+	/*JUNKIE*/
+	.andrenalinejunkies-preview{
+		grid-template-columns: repeat(2, 2fr);
+		grid-gap: 20px;
+	}
+
 }
